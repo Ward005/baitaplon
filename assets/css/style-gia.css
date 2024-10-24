@@ -1,0 +1,124 @@
+/* header */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.247);
+  z-index: 9999;
+}
+.inner-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inner-main .inner-logo img {
+  width: 100px;
+}
+
+.inner-main .inner-menu ul {
+  display: flex;
+  align-items: center;
+  padding: 31.6px 20px;
+}
+
+.inner-main .inner-menu li {
+  margin-left: 20px;
+}
+
+.inner-main .inner-menu li a {
+  font-weight: 500;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: var(--color-text);
+  text-decoration: none;
+  padding: 31.6px 20px;
+}
+
+.inner-main .inner-menu ul li:hover a {
+  background-color: #ebebeb8e;
+  color: var(--color-two);
+}
+/* End header */
+
+/* Price ticket */
+.price-ticket {
+  padding: 50px 0;
+  margin-top: 100px;
+}
+
+.price-ticket .inner-title {
+  color: var(--color-two);
+  margin-bottom: 40px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.price-ticket .inner-image {
+  text-align: center;
+}
+/* End Price ticket */
+
+/* Footer */
+footer {
+  background-color: var(--color-one);
+  padding: 50px 0;
+}
+footer .inner-box .inner-logo img {
+  width: 120px;
+  margin-top: -25px;
+}
+
+footer .inner-list {
+  margin-left: 15px;
+}
+
+footer .inner-list ul li:hover {
+  color: var(--color-two);
+  cursor: pointer;
+}
+
+footer .inner-title {
+  color: var(--color-two);
+  padding-bottom: 5px;
+  margin-bottom: 25px;
+  position: relative;
+  display: inline-block;
+}
+footer .inner-title::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border: 2px solid var(--color-two);
+}
+
+footer .inner-social ul {
+  display: flex;
+}
+footer .inner-social li i {
+  font-size: 30px;
+  margin-right: 20px;
+  color: gray;
+}
+
+footer .inner-social li:hover i {
+  color: var(--color-two);
+}
+
+footer .inner-tb {
+  width: 80%;
+  margin-left: -20px;
+  margin-top: 20px;
+}
+
+footer .inner-tb img {
+  width: 100%;
+}
+
+footer .inner-hotline p:last-child {
+  margin: 0;
+}
+/* End Footer */
