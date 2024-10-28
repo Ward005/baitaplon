@@ -38,7 +38,7 @@ header {
 }
 
 .inner-main .inner-menu ul li:hover a {
-  background-color: #ebebeb8e;
+  background-color: var(--color-one);
   color: var(--color-two);
 }
 /* End header */
@@ -98,6 +98,12 @@ header {
   transform: rotate(-45deg);
 }
 
+.button a {
+  color: var(--color-one);
+  text-decoration: none;
+  padding: 10px 90px;
+}
+
 .button:hover {
   background: linear-gradient(to right, #0a64a7 0%, #258dcf 51%, #3db1f3 100%);
 }
@@ -148,13 +154,12 @@ header {
 }
 
 .section-one .inner-content .inner-title {
-  color: var(--color-two);
   margin-bottom: 15px;
   cursor: pointer;
 }
 
-.section-one .inner-content .inner-title a:focus {
-  text-decoration: underline;
+.section-one .inner-content .inner-title a {
+  color: var(--color-two);
 }
 
 .section-one .inner-content .inner-desc {
@@ -192,13 +197,12 @@ header {
 }
 
 .section-two .inner-content .inner-title {
-  color: var(--color-two);
   margin-bottom: 15px;
   cursor: pointer;
 }
 
-.section-two .inner-content .inner-title a:focus {
-  text-decoration: underline;
+.section-two .inner-content .inner-title a {
+  color: var(--color-two);
 }
 
 .section-two .inner-content .inner-desc {
@@ -211,6 +215,11 @@ footer {
   background-color: var(--color-one);
   padding: 50px 0;
 }
+
+footer .inner-box {
+  margin-bottom: 30px;
+}
+
 footer .inner-box .inner-logo img {
   width: 120px;
   margin-top: -25px;

@@ -38,7 +38,7 @@ header {
 }
 
 .inner-main .inner-menu ul li:hover a {
-  background-color: #ebebeb8e;
+  background-color: var(--color-one);
   color: var(--color-two);
 }
 /* End header */
@@ -97,6 +97,11 @@ footer {
   background-color: var(--color-one);
   padding: 50px 0;
 }
+
+footer .inner-box {
+  margin-bottom: 30px;
+}
+
 footer .inner-box .inner-logo img {
   width: 120px;
   margin-top: -25px;
