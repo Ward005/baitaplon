@@ -117,6 +117,23 @@ header {
   background: linear-gradient(to right, #0a64a7 0%, #258dcf 51%, #3db1f3 100%);
 }
 
+@media (max-width:1199.98px) {
+  .button a {
+    padding: 10px 70px;
+  }
+}
+
+@media (max-width:767.98px) {
+  .button a {
+    padding: 8px 16px;
+  }
+}
+@media (max-width:575.98px) {
+  .button a {
+    padding: 10px 20px;
+  }
+}
+
 /* End Button */
 
 /* Sliding Window */
